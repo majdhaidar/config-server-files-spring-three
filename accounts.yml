@@ -4,8 +4,8 @@ spring:
   datasource:
     url: jdbc:h2:mem:testdb # Connects to an in-memory database named 'testdb'
     driver-class-name: org.h2.Driver
-    username: sa
-    password: ''
+    username: "{cipher}72d70c3762be9f6ac0698f79364f500b16e1e188572c41ae9d594d8305d56ba2"
+    password: "{cipher}975f87a56f6b26695508f7359d14189d4b7ba13f170a6f9b8990ccbe35f960f3"
   h2:
     console:
       enabled: true # Enables the H2 console for web-based access
