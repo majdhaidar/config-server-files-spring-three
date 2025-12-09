@@ -14,8 +14,8 @@ spring:
     database-platform: org.hibernate.dialect.H2Dialect # Specifies the Hibernate dialect for H2
     hibernate:
       ddl-auto: validate # Controls schema generation (e.g., create, update, validate, none)
-  management:
-    endpoints:
-      web:
-        exposure:
-          include: "*"
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
