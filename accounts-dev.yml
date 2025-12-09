@@ -3,4 +3,4 @@ spring:
     show-sql: false # Logs SQL statements to the console
 
 build:
-  version: 0.0.4
+  version: 0.0.5
