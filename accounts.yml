@@ -14,6 +14,13 @@ spring:
     database-platform: org.hibernate.dialect.H2Dialect # Specifies the Hibernate dialect for H2
     hibernate:
       ddl-auto: validate # Controls schema generation (e.g., create, update, validate, none)
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+
 management:
   endpoints:
     web:
