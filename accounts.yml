@@ -6,12 +6,12 @@ spring:
     username: root
     password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
-  jpa:
-    hibernate:
-      ddl-auto: update # Controls schema generation (e.g., create, update, validate, none)
     sql:
       init:
         mode: always
+  jpa:
+    hibernate:
+      ddl-auto: update # Controls schema generation (e.g., create, update, validate, none)
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQLDialect
