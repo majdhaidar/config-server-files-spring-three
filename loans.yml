@@ -5,12 +5,16 @@ spring:
     url: jdbc:mysql://localhost:3307/loansdb
     username: root
     password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
       ddl-auto: update # Controls schema generation (e.g., create, update, validate, none)
     sql:
       init:
         mode: always
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
   rabbitmq:
     host: localhost
     port: 5672
