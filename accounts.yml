@@ -11,7 +11,7 @@ spring:
         mode: always
   jpa:
     hibernate:
-      ddl-auto: validate # Controls schema generation (e.g., create, update, validate, none)
+      ddl-auto: update # Controls schema generation (e.g., create, update, validate, none)
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQLDialect
